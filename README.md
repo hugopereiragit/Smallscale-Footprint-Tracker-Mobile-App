@@ -10,6 +10,8 @@ The app would then target the areas where each individual user had most of their
 With further research however it was concluded that there is enough work on this area making it so the improvements that could be made would likely not be enough to create significant change. 
 As such the focus was shifted away from the major contributors to the user’s emissions and towards smaller scale changes that can be made to reduce our footprint. Making it so the user is provided with further options which in theory are easier to adapt to.
 
+The following screenshots and showcases are copied directly from a Article written during this project which will be made available eventually. Ence ignore any references to other chapters in the meantime
+
 
 
 
@@ -43,6 +45,7 @@ Fig. 3 Advice Screens
    The previous 3 screens show general advice and detailed advice which is given upon clicking an image button, the advice is based on the investigation/research made on chapter VI, the weight in kg of average emissions per week is also provided. The advice is divided in 4 areas named: Co2 Weight, General Advice, Detailed Advice and finally References.
 
 ![image](https://user-images.githubusercontent.com/61696448/189509411-d7e02a7c-0dff-4e12-ae8d-e03d82d66e1f.png)
+
 Fig. 4 Targeted Advice
 
    During the questionnaire process questions have an optimal answer assigned to them, when the user selects an answer other than the best one the weight in kilogram is saved and compared to the previous highest weight saved from non-optimal questions (If it’s the first then this value is 0) if the weight of the new non optimal question is higher than the previous then the question number is saved as the biggest offending question or replaced if it already exists. This number will later be used to show the user where he should target his focus first if he whishes to improve his footprint.
