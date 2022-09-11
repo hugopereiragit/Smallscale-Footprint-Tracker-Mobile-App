@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:background="#0f470b"
+    >
+
+
+
+<com.github.mikephil.charting.charts.PieChart
+    android:layout_marginTop="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:id="@+id/pieChart"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_margin="10dp"
+    >
+
+</com.github.mikephil.charting.charts.PieChart>
+
+
+    <ImageButton
+        app:layout_constraintBottom_toTopOf="@id/horizontalview"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/previoushigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heater"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/pieChart"
+        app:layout_constraintRight_toLeftOf="@id/previoushigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_you_should_fix_based_on_n_your_last_emission_questionare"
+        android:id="@+id/advicetext"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+
+        ></TextView>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/pieChart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats"
+        android:id="@+id/goodtext"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advice"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/horizontalview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:elevation="2dp"
+        >
+
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@id/horizontalview"
+        android:elevation="2dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/horizontalview"
+        android:elevation="2dp"
+        />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        android:layout_marginBottom="4dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#d6d7d7"
+            >
+
+        <ImageButton
+            android:id="@+id/bagbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bagicon"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+           />
+        <ImageButton
+            android:id="@+id/heaterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heater"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+
+            <ImageButton
+                android:id="@+id/plugbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/unplug"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                />
+
+        <ImageButton
+            android:id="@+id/coolingbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cooling"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+        <ImageButton
+            android:id="@+id/fastfashionbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fastfashion"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+        <ImageButton
+            android:id="@+id/foodwastebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foodwaste"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+        <ImageButton
+            android:id="@+id/ledbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/led"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+        <ImageButton
+            android:id="@+id/waterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/water"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+        <ImageButton
+            android:id="@+id/localbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/localfood"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "190861961890",
+    "project_id": "movelmestre",
+    "storage_bucket": "movelmestre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190861961890:android:4fcfdf96f619470d6c45fb",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190861961890-grp2ne1ivv6t6phf39u1o5l16o91tmmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNqpDcPHWskQt8Cej6g5tk1fG8y580QGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190861961890-grp2ne1ivv6t6phf39u1o5l16o91tmmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190861961890:android:969638c77d013cbf6c45fb",
+        "android_client_info": {
+          "package_name": "com.example.smallfootprintproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190861961890-grp2ne1ivv6t6phf39u1o5l16o91tmmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNqpDcPHWskQt8Cej6g5tk1fG8y580QGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190861961890-grp2ne1ivv6t6phf39u1o5l16o91tmmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

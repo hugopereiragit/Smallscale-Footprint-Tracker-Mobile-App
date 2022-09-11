@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneralAdvice"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/bagbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bagicon"
+            android:background="@color/white"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/horizontalview"
+            android:elevation="2dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/heaterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heater"
+            android:background="@color/white"
+            android:padding="20dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/horizontalview"
+            android:elevation="2dp"
+            />
+
+        <ImageButton
+            android:id="@+id/plugbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unplug"
+            android:background="@color/white"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@id/horizontalview"
+                android:elevation="2dp"
+                />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/coolingbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cooling"
+            android:background="@color/white"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/horizontalview"
+            android:elevation="2dp"
+            />
+
+        <ImageButton
+            android:id="@+id/fastfashionbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fastfashion"
+            android:background="@color/white"
+            android:padding="20dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/horizontalview"
+            android:elevation="2dp"
+            />
+        <ImageButton
+            android:id="@+id/foodwastebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foodwaste"
+            android:background="@color/white"
+            android:padding="20dp"
+            />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@id/horizontalview"
+                android:elevation="2dp"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ledbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/led"
+            android:background="@color/white"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/horizontalview"
+            android:elevation="2dp"
+            />
+
+        <ImageButton
+            android:id="@+id/waterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/water"
+            android:background="@color/white"
+            android:padding="20dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/horizontalview"
+            android:elevation="2dp"
+            />
+
+        <ImageButton
+            android:id="@+id/localbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/localfood"
+            android:background="@color/white"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@id/horizontalview"
+                android:elevation="2dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomContainer2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/RETURN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="RETURN" />
+    </LinearLayout>
+</RelativeLayout>
