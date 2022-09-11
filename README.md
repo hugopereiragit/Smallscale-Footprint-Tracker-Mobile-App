@@ -16,15 +16,12 @@ As such the focus was shifted away from the major contributors to the user’s e
 II. Developed App
 
 ![image](https://user-images.githubusercontent.com/61696448/189509403-4760a031-e9dc-44b1-8862-06406b10686e.png)
+Fig. 1 Greeting Screen
 
- 
-Fig.10 Greeting Screen
-     When opening the app, we are greeted with the main screen which allows us to login, create an account or view general advice on how we can reduce our footprint. The user authentication and creation are made using firebase, which will also be the database used for the rest of the project.
+   When opening the app, we are greeted with the main screen which allows us to login, create an account or view general advice on how we can reduce our footprint. The user authentication and creation are made using firebase, which will also be the database used for the rest of the project.
 
  ![image](https://user-images.githubusercontent.com/61696448/189509406-855a4e1b-fc3c-45d4-815a-d6dc639f24a0.png)
-
- 
-Fig. 1 Interactive Screens
+Fig. 2 Interactive Screens
 
    Upon completing the authentication process successfully, we are sent to the 2nd screen in Fig.10, this screen will search the database for the latest emission report made by our account and show an interactive pie chart (movable and clickable) with data according to the report. If we are under the recommended number of emissions based on the questionnaire (54Kg) we are greeted with a fully green pie chart and a text view congratulating our efforts (see Fig.14). If however we are over the imposed limit we will be met by a pie chart showing us how much of excess Co2 emissions we are producing, followed by the most influential decision made on the bottom of the pie chart (see Fig.13). If none of the previous apply and we have no data on our account, no chart will be displayed, and no advice will be displayed.
 
@@ -38,30 +35,22 @@ Fig. 1 Interactive Screens
 
   
 ![image](https://user-images.githubusercontent.com/61696448/189509410-585a99a5-c5d4-4da6-8929-a839a79e3311.png)
-
- 
-Fig. 2 Advice Screens
+Fig. 3 Advice Screens
 
    The previous 3 screens show general advice and detailed advice which is given upon clicking an image button, the advice is based on the investigation/research made on chapter VI, the weight in kg of average emissions per week is also provided. The advice is divided in 4 areas named: Co2 Weight, General Advice, Detailed Advice and finally References.
 
 ![image](https://user-images.githubusercontent.com/61696448/189509411-d7e02a7c-0dff-4e12-ae8d-e03d82d66e1f.png)
-
- 
-Fig. 3 Targeted Advice
+Fig. 4 Targeted Advice
 
    During the questionnaire process questions have an optimal answer assigned to them, when the user selects an answer other than the best one the weight in kilogram is saved and compared to the previous highest weight saved from non-optimal questions (If it’s the first then this value is 0) if the weight of the new non optimal question is higher than the previous then the question number is saved as the biggest offending question or replaced if it already exists. This number will later be used to show the user where he should target his focus first if he whishes to improve his footprint.
 
  ![image](https://user-images.githubusercontent.com/61696448/189509412-b154bf06-0249-4a96-ba1c-316bc2dd839f.png)
-
- 
-Fig. 4 Positive Main menu
+Fig. 5 Positive Main menu
 
    The previous screen shows the success case of the main menu where the emissions are kept qual/below the recommended amount for weekly emissions.
 
 ![image](https://user-images.githubusercontent.com/61696448/189509420-f65fae47-5fcc-48d0-9486-abf6d138fba2.png)
-
- 	 
-Fig. 5 To-do Advice
+Fig. 6 To-do Advice
 
    Not all the detailed advice has been ported over from the article to the app and a placeholder template is used instead for the unfinished areas as to allow the app to be completely usable regardless of missing content. 
 
