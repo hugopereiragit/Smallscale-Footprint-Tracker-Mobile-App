@@ -2,9 +2,13 @@
 
 VII. Developed App
 
+![image](https://user-images.githubusercontent.com/61696448/189509403-4760a031-e9dc-44b1-8862-06406b10686e.png)
+
  
 Fig.10 Greeting Screen
      When opening the app, we are greeted with the main screen which allows us to login, create an account or view general advice on how we can reduce our footprint. The user authentication and creation are made using firebase, which will also be the database used for the rest of the project.
+
+ ![image](https://user-images.githubusercontent.com/61696448/189509406-855a4e1b-fc3c-45d4-815a-d6dc639f24a0.png)
 
  
 Fig. 11 Interactive Screens
@@ -19,22 +23,28 @@ Fig. 11 Interactive Screens
 
      On the third screen we an area reserved for user data which will get our last emissions data and show its number is kg and use it to compare it to our overall emissions telling us if we are improving or worsening based on the average of all our recorded emissions, the top image turning from red thumbs down to green thumbs up accordingly, we are also provided with a % of how higher or lower our emissions are compared to our average. Afterwards we have another interactive chart, this time a bar chart, with data pulled from firestore connected to the current user’s identification. Depending on the number of data the chart will increase or decrease in size up to a maximum of 5 bars, we are also able to zoom in or out of the chart. The data is displayed from newest emissions to oldest from left to right which is indicated in the bottom. If there is no data available, the chart will not appear (If there is supposed to be data and the graph shows no data available clicking on the graph will update it and show the missing data). Along with the previous screen we have a bottom navigation bar to go to specific areas of the app.
 
+![image](https://user-images.githubusercontent.com/61696448/189509410-585a99a5-c5d4-4da6-8929-a839a79e3311.png)
 
  
 Fig. 12 Advice Screens
 
      The previous 3 screens show general advice and detailed advice which is given upon clicking an image button, the advice is based on the investigation/research made on chapter VI, the weight in kg of average emissions per week is also provided. The advice is divided in 4 areas named: Co2 Weight, General Advice, Detailed Advice and finally References.
 
+![image](https://user-images.githubusercontent.com/61696448/189509411-d7e02a7c-0dff-4e12-ae8d-e03d82d66e1f.png)
 
  
 Fig. 13 Targeted Advice
 
      During the questionnaire process questions have an optimal answer assigned to them, when the user selects an answer other than the best one the weight in kilogram is saved and compared to the previous highest weight saved from non-optimal questions (If it’s the first then this value is 0) if the weight of the new non optimal question is higher than the previous then the question number is saved as the biggest offending question or replaced if it already exists. This number will later be used to show the user where he should target his focus first if he whishes to improve his footprint.
 
+ ![image](https://user-images.githubusercontent.com/61696448/189509412-b154bf06-0249-4a96-ba1c-316bc2dd839f.png)
+
  
 Fig. 14 Positive Main menu
 
      The previous screen shows the success case of the main menu where the emissions are kept qual/below the recommended amount for weekly emissions.
+
+![image](https://user-images.githubusercontent.com/61696448/189509420-f65fae47-5fcc-48d0-9486-abf6d138fba2.png)
 
  	 
 Fig. 15 To-do Advice
