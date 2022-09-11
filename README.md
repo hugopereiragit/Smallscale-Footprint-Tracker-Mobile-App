@@ -1,6 +1,7 @@
 # Smallscale-Footprint-Tracker-Mobile-App
 
 I. Introduction
+
 Throughout its long history, Earth has warmed and cooled time and again. Climate has changed when the planet received increased or decreased sunlight due to subtle shifts in its orbit, as the atmosphere or surface changed, or when the Sun’s energy varied. But in the past century, another force has started to influence Earth’s climate: humanity.
 Models predict that as the world consumes ever more fossil fuel, greenhouse gas concentrations will continue to rise, and Earth’s average surface temperature will rise with them. Based on plausible emission scenarios, average surface temperatures could rise between 2°C and 6°C by the end of the 21st century. Some of this warming will occur even if future greenhouse gas emissions are reduced, because the Earth system has not yet fully adjusted to environmental changes we have already made.
 While there is much that can be done on a global scale the average citizen does not hold the power to make their country do what they want. However individually there is much we can do to help reduce the effects our lifestyle has on the climate.
